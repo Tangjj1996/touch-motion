@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "esnext",
+    "baseUrl": "src",
+    "rootDir": "src",
+    "noEmit": true
+  },
+  "exclude": ["node_modules"]
+}
