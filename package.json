@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "node build/dev.config.js",
     "prod": "node build/prod.config.js",
-    "deploy": "build/deploy.sh"
+    "deploy": "build/deploy.sh",
+    "clean": "shy rm -rf lib"
   },
   "devDependencies": {
     "@babel/core": "^7.14.3",
@@ -23,7 +24,8 @@
     "eslint-plugin-prettier": "^3.4.0",
     "eslint-plugin-promise": "^4.2.1",
     "prettier": "^2.3.0",
-    "rollup": "^2.48.0"
+    "rollup": "^2.48.0",
+    "shx": "^0.3.3"
   },
   "dependencies": {
     "@babel/runtime-corejs3": "^7.14.0"
